@@ -1,0 +1,95 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:url('./qxeQgb.jpg');
+  /* background-position: fixed; */
+  background-attachment: fixed;
+  background-position: center;
+
+  
+ 
+}
+#main-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh);
+  width: calc(100vw);
+  
+}
+#matchList {
+  display: flex;
+  flex-wrap: wrap;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.group-box {
+  display: flex;
+  width: 50%;
+  height: 50px;
+  box-shadow: 0px 3px 6px 4px rgb(1, 28, 87);
+  margin: 3% 3%;
+  font-size: 1.5em;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  color:white;
+}
+
+.group-box:hover {
+  color:rgb(1, 1, 131);
+  transition:.2s ease-in;
+  cursor:pointer;
+  font-size:30px;
+  font-weight: bolder;
+}
+
+#main {
+  display: none;
+  justify-content: center;
+  align-items: flex-start;
+  height: calc(100vh);
+  width: calc(100vw);
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.603);
+}
+#detail-box {
+  height: auto;
+  width: auto;
+  background-color:white;
+}
+
+#all-teams {
+  display: flex;
+  flex-direction: column;
+}
+.team-name,
+.team-code,
+.pos-goal,
+.play-goal,
+.won-goal,
+.draw-goal,
+.lost-goal-box,
+.team-goal-box,
+.against-goal-box,
+.point-box {
+  background-color: white;
+  text-align: center;
+  padding: 3px 0px 3px 0px;
+}
+#team-details {
+  display: flex;
+  height: 100%;
+}
+
+.heading-div {
+  font-size: 1.3em;
+  font-weight: 700;
+  text-align: center;
+  margin: 6px 15px 6px 15px;
+  color: red;
+}
